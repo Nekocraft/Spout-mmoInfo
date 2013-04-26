@@ -22,7 +22,40 @@ permissions:
         description: Access to all the mmoInfo display nodes
         default: true
     mmo.info.display:
-        description: Shows the info bar
+        description: 显示 info 条
+        default: true
+    mmo.info.gold:
+        description: 显示 gold 条
+        default: true
+    mmo.info.level:
+        description: 显示 level 条
+        default: true
+    mmo.info.health:
+        description: 显示 health 条
+        default: true
+    mmo.info.time:
+        description: 显示 time 条
+        default: true
+    mmo.info.coords:
+        description: 显示 coords 条
+        default: true
+    mmo.info.online:
+        description: 显示 online 条
+        default: true
+    mmo.info.ticks:
+        description: 显示 ticks 条
+        default: true
+    mmo.info.xp:
+        description: 显示 XP 条
+        default: true
+    mmo.info.world:
+        description: 显示 world 条
+        default: true
+    mmo.info.food:
+        description: 显示 food 条
+        default: true
+    mmo.info.armor:
+        description: 显示 armor 条
         default: true
     mmo.info.hidegui:
         description: allows player to hide GUI

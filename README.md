@@ -1,5 +1,11 @@
 [![mmoMinecraft][Project Logo]][Website]
 
+Nekocraft Special!
+---------------------
+Changes:
+  + Merge infoLevel/infoGold/infoTime/infoHealth/infoOxygen/infoCoords/infoOnline/infoTicks/infoXP/infoWorld/infoFood/infoArmor into mmoInfo
+
+
 What is mmoMinecraft?
 ---------------------
 mmoMinecraft is an easy to configure and use suite of MMORPG related plugins for SpoutPlugin and Bukkit-based Minecraft servers. Server admin can install exactly which plugins they need knowing that they won't interfere with each other, and that they aren't forced into features they don't want.

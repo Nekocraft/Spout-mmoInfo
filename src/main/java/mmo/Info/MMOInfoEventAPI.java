@@ -24,58 +24,58 @@ import org.getspout.spoutapi.gui.Widget;
 import org.getspout.spoutapi.player.SpoutPlayer;
 
 public class MMOInfoEventAPI extends MMOInfoEvent implements Cancellable {
-	SpoutPlayer player;
-	String token;
-	String[] args;
-	Plugin plugin = null;
-	Widget widget = null;
-	String icon = null;
-	boolean cancelled = false;
+    SpoutPlayer player;
+    String token;
+    String[] args;
+    Plugin plugin = null;
+    Widget widget = null;
+    String icon = null;
+    boolean cancelled = false;
 
-	public MMOInfoEventAPI(SpoutPlayer player, String token, String[] args) {
-		this.player = player;
-		this.token = token;
-		this.args = args;
-	}
+    public MMOInfoEventAPI(SpoutPlayer player, String token, String[] args) {
+        this.player = player;
+        this.token = token;
+        this.args = args;
+    }
 
-	public SpoutPlayer getPlayer() {
-		return this.player;
-	}
+    public SpoutPlayer getPlayer() {
+        return this.player;
+    }
 
-	public boolean isToken(String token) {
-		return token.equalsIgnoreCase(this.token);
-	}
+    public boolean isToken(String token) {
+        return token.equalsIgnoreCase(this.token);
+    }
 
-	public String[] getArgs() {
-		return (String[])this.args.clone();
-	}
+    public String[] getArgs() {
+        return (String[]) this.args.clone();
+    }
 
-	public void setWidget(Plugin p, Widget widget) {
-		this.widget = widget;
-		this.plugin = p;
-	}
+    public void setWidget(Plugin p, Widget widget) {
+        this.widget = widget;
+        this.plugin = p;
+    }
 
-	public Widget getWidget() {
-		return this.widget;
-	}
+    public Widget getWidget() {
+        return this.widget;
+    }
 
-	public Plugin getPlugin() {
-		return this.plugin;
-	}
+    public Plugin getPlugin() {
+        return this.plugin;
+    }
 
-	public void setIcon(String icon) {
-		this.icon = icon;
-	}
+    public void setIcon(String icon) {
+        this.icon = icon;
+    }
 
-	public String getIcon() {
-		return this.icon;
-	}
+    public String getIcon() {
+        return this.icon;
+    }
 
-	public boolean isCancelled() {
-		return this.cancelled;
-	}
+    public boolean isCancelled() {
+        return this.cancelled;
+    }
 
-	public void setCancelled(boolean cancel) {
-		this.cancelled = cancel;
-	}
+    public void setCancelled(boolean cancel) {
+        this.cancelled = cancel;
+    }
 }

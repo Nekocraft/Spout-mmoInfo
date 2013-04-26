@@ -1,11 +1,47 @@
 # #Info Configuration
-tokenlines: 1
-info: '{name}~mmoMinecraft~{coords}'
-info2: ~~
-info3: ~~
-info4: ~~
-HideDefaultHealthBar: false
-HideDefaultExpBar: false
-HideDefaultHungerBar: false
-HideDefaultArmorBar: false
-HideDefaultOxygenBar: false
+info:
+  tokenlines: 1
+  info: '{name}~mmoMinecraft~{coords}'
+  info2: ~~
+  info3: ~~
+  info4: ~~
+  HideDefaultHealthBar: false
+  HideDefaultExpBar: false
+  HideDefaultHungerBar: false
+  HideDefaultArmorBar: false
+  HideDefaultOxygenBar: false
+
+# #InfoGold Configuration
+gold:
+  curtype: 'US'
+  displayas: 'currency'
+  displayas_decimal: false
+
+# #InfoLevel Configuration
+level:
+  displayas: 'bar'
+
+# #InfoHealth Configuration
+health:
+  displayas: 'bar'
+
+# #InfoFood Configuration
+food:
+  displayas: 'bar'
+
+# #InfoTime Configuration
+time:
+  timetype: 12
+
+# #InfoXP Configuration
+xp:
+  xptype: 'percentage'
+
+# #InfoArmor Configuration
+armor:
+  displayas: "bar"
+  showoxygen: true
+
+# #InfoWorld Configuration
+world-alias:
+  world: World
