@@ -86,19 +86,18 @@ public class MMOInfo extends MMOPlugin implements Listener {
     public void onEnable() {
         super.onEnable();
         getServer().getPluginManager().registerEvents(this, this);
-
-        infoLevel.onEnable();
-        infoGold.onEnable();
-        infoTime.onEnable();
-        infoHealth.onEnable();
-        infoOxygen.onEnable();
-        infoCoords.onEnable();
-        infoOnline.onEnable();
-        infoTicks.onEnable();
-        infoXP.onEnable();
-        infoWorld.onEnable();
-        infoFood.onEnable();
-        infoArmor.onEnable();
+        // Register Modules
+        getPluginLoader().enablePlugin(infoLevel);
+        getPluginLoader().enablePlugin(infoTime);
+        getPluginLoader().enablePlugin(infoHealth);
+        getPluginLoader().enablePlugin(infoOxygen);
+        getPluginLoader().enablePlugin(infoCoords);
+        getPluginLoader().enablePlugin(infoOnline);
+        getPluginLoader().enablePlugin(infoTicks);
+        getPluginLoader().enablePlugin(infoXP);
+        getPluginLoader().enablePlugin(infoWorld);
+        getPluginLoader().enablePlugin(infoFood);
+        getPluginLoader().enablePlugin(infoArmor);
     }
 
     @Override
